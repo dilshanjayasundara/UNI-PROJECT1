@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="447.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.food_company.task_4.HelloController">
+
+<Pane layoutX="-111.0" prefHeight="447.0" prefWidth="864.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <Button fx:id="search" layoutX="184.0" layoutY="322.0" mnemonicParsing="false" onAction="#onSearchButtonClick" prefHeight="35.0" prefWidth="89.0" text="Search" />
+            <ImageView fitHeight="82.0" fitWidth="302.0" layoutX="191.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/Cashiers.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c1q1" fitHeight="50.0" fitWidth="43.0" layoutX="228.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c1q2" fitHeight="50.0" fitWidth="43.0" layoutX="228.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c2q2" fitHeight="50.0" fitWidth="43.0" layoutX="309.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c3q1" fitHeight="50.0" fitWidth="43.0" layoutX="386.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c2q1" fitHeight="50.0" fitWidth="43.0" layoutX="309.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c3q2" fitHeight="50.0" fitWidth="43.0" layoutX="386.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c3q3" fitHeight="50.0" fitWidth="43.0" layoutX="385.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c3q4" fitHeight="50.0" fitWidth="43.0" layoutX="385.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+            <ImageView fx:id="c3q5" fitHeight="50.0" fitWidth="43.0" layoutX="385.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+      <ImageView fx:id="c2q3" fitHeight="35.0" fitWidth="43.0" layoutX="309.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/Customer.png" />
+            </image></ImageView>
+         <Label fx:id="c3Q5" layoutX="664.0" layoutY="339.0" prefHeight="35.0" prefWidth="208.0" text="Customer Five of Queue     3" />
+         <Label fx:id="c3Q4" layoutX="664.0" layoutY="309.0" prefHeight="35.0" prefWidth="208.0" text="Customer Four of Queue    3" />
+         <Label fx:id="c3Q3" layoutX="665.0" layoutY="280.0" prefHeight="35.0" prefWidth="208.0" text="Customer Three of Queue  3" />
+         <Label fx:id="c3Q2" layoutX="664.0" layoutY="251.0" prefHeight="35.0" prefWidth="208.0" text="Customer Two of Queue    3" />
+         <Label fx:id="c3Q1" layoutX="664.0" layoutY="221.0" prefHeight="35.0" prefWidth="208.0" text="Customer One of Queue    3" />
+         <Label fx:id="c2Q3" layoutX="665.0" layoutY="190.0" prefHeight="35.0" prefWidth="208.0" text="Customer Three of Queue 2" />
+         <Label fx:id="c2Q2" layoutX="664.0" layoutY="160.0" prefHeight="35.0" prefWidth="208.0" text="Customer Two of Queue    2" />
+         <Label fx:id="c2Q1" layoutX="664.0" layoutY="129.0" prefHeight="35.0" prefWidth="208.0" text="Customer One of Queue    2" />
+         <Label fx:id="c1Q2" layoutX="663.0" layoutY="98.0" prefHeight="35.0" prefWidth="208.0" text="Customer Two of Queue    1" />
+         <Label fx:id="c1Q1" layoutX="664.0" layoutY="66.0" prefHeight="35.0" prefWidth="208.0" text="Customer One of Queue    1" />
+         <Label layoutX="473.0" layoutY="72.0" prefHeight="25.0" prefWidth="174.0" text="Customer One of Queue    1" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="105.0" prefHeight="25.0" prefWidth="174.0" text="Customer Two of Queue    1" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="135.0" prefHeight="25.0" prefWidth="174.0" text="Customer One of Queue    2" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="166.0" prefHeight="25.0" prefWidth="174.0" text="Customer Two of Queue    2" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="195.0" prefHeight="25.0" prefWidth="174.0" text="Customer Three of Queue  2" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="226.0" prefHeight="25.0" prefWidth="174.0" text="Customer One of Queue    3" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="257.0" prefHeight="25.0" prefWidth="174.0" text="Customer Two of Queue    3" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="286.0" prefHeight="25.0" prefWidth="174.0" text="Customer Three of Queue  3" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="315.0" prefHeight="25.0" prefWidth="174.0" text="Customer Four of Queue    3" textFill="#0c04f4" />
+         <Label layoutX="473.0" layoutY="343.0" prefHeight="25.0" prefWidth="174.0" text="Customer Five of Queue     3" textFill="#0c04f4" />
+         <Button fx:id="view" layoutX="184.0" layoutY="283.0" mnemonicParsing="false" onAction="#onViewButtonClick" prefHeight="35.0" prefWidth="89.0" text="View" />
+         </children>
+      </Pane>
+</AnchorPane>
